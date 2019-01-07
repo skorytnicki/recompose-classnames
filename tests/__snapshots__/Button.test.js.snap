@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button has class 1`] = `
+<button
+  className="isPrimary"
+  isPrimary={true}
+>
+  Jug Button
+</button>
+`;
+
+exports[`Button has class isPrimary 1`] = `
+<button
+  className="isPrimary"
+  isPrimary={true}
+>
+  Jug Button
+</button>
+`;

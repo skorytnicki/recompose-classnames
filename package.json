@@ -1,0 +1,39 @@
+{
+  "name": "recompose-classnames",
+  "version": "1.0.0",
+  "description": "classnames utility for recompose",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorytnicki/recompose-classnames.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "npx babel index.js -o build/index.js"
+  },
+  "keywords": [
+    "react",
+    "recompose",
+    "classnames"
+  ],
+  "author": "Szymon Korytnicki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skorytnicki/recompose-classnames/issues"
+  },
+  "homepage": "https://github.com/skorytnicki/recompose-classnames#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "recompose": "^0.30.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0"
+  }
+}
